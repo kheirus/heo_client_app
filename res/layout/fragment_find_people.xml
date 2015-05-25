@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawerLayout"
+    android:background="@color/list_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    
+    >
+    
+    <ListView
+        android:id="@+id/listViewPeople"
+       	android:dividerHeight="1dp"
+       	android:cacheColorHint="#FFFF"
+       	android:clickable="true"
+       	android:divider="#b5b5b5"
+      	android:listSelector="@drawable/list_sel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+    
+
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HEO</string>
+    <string name="d_titre">Profil</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="welcome">Help Each Other</string>
+    <string name="connexion">Se connecter</string>
+    <string name="inscpription">S\'inscrire</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_add">Ajouter</string>
+    <string name="menu_save">Save</string>
+    <string name="menu_crop">Crop</string>
+    <string name="dummy_section_text">Section %1d is just a dummy section.</string>
+    <string name="ins">Inscription</string>
+    <string name="msg_alert_deconnection">Souhaitez-vous vraiment vous déconnecter ?</string>
+    <string name="titre_alert_deconnection">Déconnexion</string>
+    <string name="confirmation_deconnection">Confirmer</string>
+    <string name="annulation_deconnection">Annuler</string>
+	<string name="desc_list_item_icon">Item Icon</string>	
+    
+<!--     <string-array name="db"> -->
+<!--         <item>Help</item> -->
+<!--         <item>Compte</item> -->
+<!--         <item>Deconnexion</item> -->
+<!--     </string-array> -->
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item></item>
+        <item>Home</item>
+        <item>Find Helper</item>
+    </string-array>
+    
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_action_person</item>
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_people</item>
+        </array>
+        
+    
+
+</resources>

@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/left_list_select"
+    android:keepScreenOn="true" >
+
+    
+
+    <Button
+        android:id="@+id/inscription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="76dp"
+        android:text="S&apos;inscrire sur HEO"
+        android:textColor="#DF6D14" />
+
+    <EditText
+        android:id="@+id/login"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="19dp"
+        android:ems="10"
+        android:hint="Pseudo"
+        android:textColor="#003366"
+        android:textColorHint="#DFCF14" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/mot_de_passe"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/login"
+        android:layout_alignRight="@+id/login"
+        android:layout_below="@+id/login"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Mot de passe"
+        android:password="true"
+        android:textColor="#003366"
+        android:textColorHint="#DFCF14" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="56dp"
+        android:text="@string/welcome"
+        android:textColor="#DF6D14"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/connexion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mot_de_passe"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="76dp"
+        android:text="@string/connexion"
+        android:textColor="#DF6D14" />
+
+</RelativeLayout>

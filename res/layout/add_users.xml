@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/left_list_select"
+    android:keepScreenOn="true"
+    android:orientation="vertical" >
+
+    
+    
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="56dp"
+        android:text="@string/ins"
+        android:textColor="#DF6D14"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+    
+    
+    <EditText
+        android:id="@+id/userConfirmPassword"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/userPassword"
+        android:ems="10"
+        android:hint="Confirmation du mot de passe"
+        android:inputType="textPassword"
+        android:textColor="#003366"
+        android:textColorHint="#DFCF14" />
+
+    <EditText
+        android:id="@+id/userPassword"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/userMail"
+        android:ems="10"
+        android:hint="Mot de passe"
+        android:inputType="textPassword"
+        android:textColor="#003366"
+        android:textColorHint="#DFCF14" />
+
+    <EditText
+        android:id="@+id/userPseudo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="120dp"
+        android:ems="10"
+        android:hint="Pseudo"
+        android:textColor="#003366"
+        android:textColorHint="#DFCF14" />
+	<requestFocus />
+    <EditText
+        android:id="@+id/userMail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/userPseudo"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColor="#003366"
+        android:textColorHint="#DFCF14" >
+
+        
+    </EditText>
+
+    <Button
+        android:id="@+id/createAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_below="@+id/userConfirmPassword"
+        android:layout_marginTop="35dp"
+        android:onClick="createAccount"
+        android:text="Créer un compte"
+        android:textColor="#DF6D14" />
+
+</RelativeLayout>
